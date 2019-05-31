@@ -30,7 +30,7 @@ namespace Arduino
             port.DataReceived += PortReceived;
             lpc = new PointCollection();
             tpc = new PointCollection();
-            ltb = new TextBoxChanged();
+            ltb = new TextBoxChanged()  ;
             ttb = new TextBoxChanged();
             sendlog = new List<string>();
             readlog = new List<string>();
